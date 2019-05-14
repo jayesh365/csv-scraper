@@ -1,2 +1,3 @@
-questionnaire_id,global_id,empty,valid,recognized,review,verified,1_review,1_1_review,1_1,1_2_review,1_2_1_review,1_2_1,1_2_2_review,1_2_2,1_2_3_review,1_2_3,2_review,2_1_review,2_1_1,2_1_2,2_1_3,2_1_4,2_2_review,2_2_1_review,2_2_1_1,2_2_1_2,2_2_1_3,2_2_1_4,2_2_2_review,2_2_2_1,2_2_2_2,2_2_2_3,2_2_2_4,2_2_3_review,2_2_3_1,2_2_3_2,2_2_3_3,2_2_3_4,3_review,3_1_review,3_1_1,4_review,4_1_review,4_1,4_2_review,4_2_1,4_2_2,4_2_3,4_2_4,4_3_review,4_3,4_4_review,4_4_1,4_5_review,4_5_1
-None,None,0,1,1,,0,,,1,,,2,,5,,3,,,1,0,0,0,,,1,0,1,0,,1,0,0,1,,1,0,0,0,,,1,,,5,,1,1,1,1,,-2,,1,,1
+questionnaire_id,global_id,empty,valid,recognized,review,verified,1_review,1_1_review,1_1_1_review,1_1_1,1_1_2_review,1_1_2,1_2_review,1_2_1,1_3_review,1_3_1
+None,None,0,1,1,,0,,,,1,,1,,1,,1
+None,None,0,1,1,,0,,,,2,,2,,3,,1

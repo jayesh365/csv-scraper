@@ -1,19 +1,16 @@
-def parseData(file):
-    f = open(file)
-    questions = []
-    answers = []
-    text = f.read().split(",")
-    # get all the questions
-    for i in range(56):
-        questions.append(text[i])
-    # get all the answers
-    start = 57
-    while start < 112:
-        answers.append(text[i])
-        start += 1
-    print(answers)
-    f.close()
+import csv
+import json
 
-
-if __name__ == '__main__':
-    parseData('test.csv')
+# open csv file to parse
+with open('test.csv', 'r') as csvFile:
+    # read the file as a dict
+    reader = csv.DictReader(csvFile)
+    dictCsv = None
+    rowNum = 0
+    # put each question/answer pair as a dict and create a json file
+    for row in reader:
+        dictCsv = dict(row)
+        json.dump(dictCsv, open("parsedCSV" + str(rowNum) + ".json", 'w'))
+        rowNum += 1
+# close the csv file
+csvFile.close()
